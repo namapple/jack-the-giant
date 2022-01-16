@@ -55,6 +55,7 @@ public class PlayerJoystick : MonoBehaviour
 
         if (vel < maxVelocity) forceX = -speed;
 
+        //turn face when move backward
         Vector3 temp = transform.localScale;
         temp.x = -1.3f;
         transform.localScale = temp;
