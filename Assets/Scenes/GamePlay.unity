@@ -346,6 +346,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 207916995, guid: 2b34f0ff95076b34fae8de059617f988, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392625880493234108, guid: 2b34f0ff95076b34fae8de059617f988, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392625880493234108, guid: 2b34f0ff95076b34fae8de059617f988, type: 3}
+      propertyPath: gameplayController
+      value: 
+      objectReference: {fileID: 1615175007}
     - target: {fileID: 6856564675640945744, guid: 2b34f0ff95076b34fae8de059617f988, type: 3}
       propertyPath: m_Name
       value: Player
@@ -921,7 +933,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1615175007}
         m_TargetAssemblyTypeName: GameplayController, Assembly-CSharp
-        m_MethodName: BackToMenu
+        m_MethodName: ReturnToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

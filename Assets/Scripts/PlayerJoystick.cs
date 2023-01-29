@@ -7,6 +7,8 @@ public class PlayerJoystick : MonoBehaviour
     public float speed = 8f;
     public float maxVelocity = 4f;
 
+    public GameplayController gameplayController;
+
     [SerializeField]
     private Rigidbody2D myBody;
     private Animator anim;
@@ -20,7 +22,7 @@ public class PlayerJoystick : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameplayController.ReturnToMenu();
     }
 
     // Update is called once per frame
